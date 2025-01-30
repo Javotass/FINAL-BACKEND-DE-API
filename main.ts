@@ -12,6 +12,7 @@ if(!url) {
 const client = new MongoClient(url);
 const dbName = 'nebrijadb';
 
+
 await client.connect();
 console.log('Connected successfully to server');
 const db = client.db(dbName);
